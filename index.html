@@ -1,50 +1,69 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi página web Escencial Manjar de Rosa</title>
-  <style>
-    /* Estilos para dispositivos de pantalla pequeña */
-    @media (max-width: 600px) {
-      body {
-        background-color: lightblue;
-      }
-      
-      h1 {
-        color: navy;
-        font-size: 24px;
-      }
-      
-      p {
-        font-size: 16px;
-      }
-    }
-    
-    /* Estilos para dispositivos de pantalla mediana y grande */
-    @media (min-width: 601px) {
-      body {
-        background-color: lightgreen;
-      }
-      
-      h1 {
-        color: darkgreen;
-        font-size: 32px;
-      }
-      
-      p {
-        font-size: 18px;
-      }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uvihatu esencial buscando el cuidado la vida</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Bienvenido al primer diseño de la pagina web de escencial manjar de flores rosales Rosa</h1>
-  
-  <p>¡Esta es una página web responsiva que se adapta a diferentes dispositivos y próximamente contara con imagenes!</p>
-  
-  <img src="imagen.jpg" alt="Imagen ilustrativa">
-  
-  <p>La importancia de las flores y uso de esencia en la vida diaria de manera natural aplicando en la labor, estudio y hogar...</p>
+    <header>
+        <h1>Tienda Uvihatu escensial</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h2>Bienvenido a nuestra tienda virtual UVIHATU_ESENCIAL</h2>
+        <p>Descubre nuestra delicioso manjar de rosas 100% natural donde la importancia de las flores y uso de esencia en la vida diaria de manera natural aplicando en la labor, estudio y hogar...</p>
+    </section>
+
+    <section id="productos">
+        <h2>Nuestros Productos</h2>
+        <div class="producto">
+            <img src="images/logoUvihatu.png" alt="Miel de Abejas 1">
+            <h3>Miel de Abejas 1</h3>
+            <p>Descripción del producto y precio.</p>
+            <button>Comprar</button>
+        </div>
+        <div class="producto">
+            <img src="images/prod1.png" alt="Miel de Abejas 2">
+            <h3>Miel de Abejas 2</h3>
+            <p>Descripción del producto y precio.</p>
+            <button>Comprar</button>
+        </div>
+        <!-- Agregar más productos aquí -->
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Contáctanos para obtener más información:</p>
+        <p>Email: info@manjaresencial.com</p>
+        <p>Teléfono: (312) 631-1294</p>
+    
+        <!-- Agrega enlaces a redes sociales con imágenes -->
+        <div class="redes-sociales">
+            <a href="https://www.facebook.com/TuPaginaDeMiel" target="_blank">
+                <img src="icons/facebook-icon.png" alt="Facebook">
+            </a>
+            <a href="https://www.instagram.com/uvihatu_esencial?igshid=MzRIO" target="_blank">
+                <img src="icons/instagram-icon.png" alt="Instagram">
+            </a>
+            <a href="https://wa.me/+573126311294" target="_blank">
+                <img src="icons/whatsapp-icon.png" alt="WhatsApp">
+            </a>
+        </div>
+    </section>
+    
+
+    <footer>
+        <p>&copy; 2023 Tienda Virtual MANJAR DE ROSAS</p>
+    </footer>
 </body>
 </html>
